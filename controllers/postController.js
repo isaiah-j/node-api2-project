@@ -136,18 +136,8 @@ exports.deletePost = async (req, res) => {
         })
     }
 }
-exports.postComment = async (req, res) => {
-    res.send('Commment posted')
-}
 
-exports.getComments = async (req, res) => {
-    res.send('comments')
-}
 
-exports.updateComment = async (req, res) => {
-    res.send('comment updated')
-}
 
-exports.deleteComment = async (req, res) => {
-    res.send('Comment deleted')
-}
+
+
